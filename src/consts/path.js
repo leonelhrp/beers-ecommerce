@@ -1,0 +1,1 @@
+export const BEERS_URL = `${process.env.PUNK_API_URL}/beers`

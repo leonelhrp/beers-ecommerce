@@ -1,0 +1,51 @@
+{
+  "name": "beers-ecommerce",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@sentry/react": "^6.10.0",
+    "axios": "^0.21.1",
+    "clsx": "^1.1.1",
+    "dotenv": "^10.0.0",
+    "next": "latest",
+    "next-fonts": "^1.5.1",
+    "next-redux-wrapper": "^7.0.2",
+    "notistack": "^1.0.10",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^7.2.4",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "check-format": "prettier --check \"src/**/*.{js,jsx}\"",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.9.9",
+    "@cypress/react": "^5.9.2",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "@testing-library/cypress": "^8.0.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "cypress": "^8.0.0",
+    "eslint": "^7.31.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2",
+    "webpack": "^5.46.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
